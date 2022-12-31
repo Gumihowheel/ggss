@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>控制语句</title>
+</head>
+<body>
+{% for book in books %}
+    <div>图书名称：{{ book.name }}, 图书作者：{{ book.author }}</div>
+{% endfor %}
+</body>
+</html>
